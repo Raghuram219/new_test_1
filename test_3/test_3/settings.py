@@ -29,8 +29,12 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
-# Application definition
 
+
+
+
+# Application definition
+# dev 3 changes
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -53,6 +57,9 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+
+
 
 ROOT_URLCONF = 'test_3.urls'
 
